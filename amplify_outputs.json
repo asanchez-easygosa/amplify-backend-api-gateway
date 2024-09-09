@@ -1,0 +1,12 @@
+{
+  "version": "1.1",
+  "custom": {
+    "API": {
+      "myRestApi": {
+        "endpoint": "https://d8nvffjf77.execute-api.us-east-2.amazonaws.com/dev/",
+        "region": "us-east-2",
+        "apiName": "myRestApi"
+      }
+    }
+  }
+}

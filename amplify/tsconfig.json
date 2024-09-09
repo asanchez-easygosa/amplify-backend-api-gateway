@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": ["./auth/**/*.ts", "./data/**/*.ts", "./backend.ts"],  // Incluir archivos en 'auth', 'data' y 'backend.ts'
+  "exclude": ["node_modules"]
+}
